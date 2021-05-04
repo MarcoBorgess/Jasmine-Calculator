@@ -1,0 +1,44 @@
+/* FONTE */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+/* CSS */
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #1abc9c, #1ca78b);
+}
+.box {
+    display: grid;
+    place-items: center;
+    margin-top: 10%;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+p {
+    color: white;
+    font-size: 25px;
+}
+input {
+    display: block;
+    margin: 0 auto;
+}
+button {
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button:active {
+    background-color: #bdbdbd;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+  }

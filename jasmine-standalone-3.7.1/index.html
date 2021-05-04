@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        
+        <title>Calculadora Simples</title>
+
+    </head>
+    <body>
+        <div class="box">
+            <h1 class="title"> Calculadora </h1>
+            <form action="">
+                <input type="text" name="txtV1" id="txtV1" placeholder="Valor 1" required>
+                <br>
+                <input type="text" name="txtV2" id="txtV2" placeholder="Valor 2" required>
+                <br>
+                <select name="txtOp" id="txtOp" required>
+                    <option value="1">Somar</option>
+                    <option value="2">Subtrair</option>
+                    <option value="3">Multiplicar</option>
+                    <option value="4">Dividir</option>
+                    <option value="5">Raiz</option>
+                </select>
+                <button type="button" onclick="calcular()"> Calculo </button>
+            </form>
+            <div class="divDisplay">
+                <p>
+                    Resultado:
+                    <span id="display">0</span>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
