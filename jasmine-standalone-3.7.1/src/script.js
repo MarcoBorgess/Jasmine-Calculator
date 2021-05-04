@@ -7,7 +7,11 @@ function calcular(){
 
     switch (op) {
         case 1:
-            calculo = valor1 + valor2;
+            //tentei mudar para função para testar no jasmine
+            function add(v1, v2) {
+                return v1+v2;
+            }
+            calculo = add(valor1, valor2);
             break;
         case 2:
             calculo = valor1 - valor2;
